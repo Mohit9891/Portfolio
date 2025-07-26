@@ -6,6 +6,7 @@ import Projects from './Pages/Projects'
 import Resume from './Pages/Resume'
 import Contact from './Pages/Contact'
 import TechStack from './Pages/TechStack'
+import Footer from './Footer'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ className="			 text-white min-h-screen">
       <Projects/>
       <TechStack/>
       <Resume/>
-      <Contact/>
+      
+      <Footer/>
       
     </div>
   )

@@ -8,7 +8,7 @@ const TechStack = () => {
         </div>
 
         <div className='grid grid-cols-6 mt-30 ml-20'>
-                <div className="p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">1</div>
+                <div className="p-4 h-40 object-contain w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out "><img src="download (1).png" alt="" /></div>
                 <div className="p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">2</div>
                 <div className="p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">3</div>
                 <div className="p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">4</div>
