@@ -19,7 +19,7 @@ className="			 text-white min-h-screen">
       <Projects/>
       <TechStack/>
       <Resume/>
-      
+      <Contact/>
       <Footer/>
       
     </div>

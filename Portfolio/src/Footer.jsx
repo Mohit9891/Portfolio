@@ -1,75 +1,50 @@
 import React from "react";
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className=" container mt-32  w-full h-full">
-      <div className="text-center text-9xl flex flex-wrap font-semibold">
-        {" "}
-        Let's Build Something Cool
-      </div>
+    <div className="w-full h-80 mt-10  py-12">
+      {/* Catchy Line */}
       <div>
-        <div className="grid grid-cols-2 mt-20">
-          <div>
-            {" "}
-            <form action="#" method="POST" className="space-y-6">
-              <div>
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Name
-                </label>
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  required
-                  className="mt-1 block w-full rounded-md border border-gray-300 p-2 focus:border-indigo-500 focus:ring-indigo-500"
-                />
-              </div>
+        <p className="text-7xl font-bold text-center  p-6 transition-colors duration-300 ">
+          From Console to Cloud – I Build It All ☁️
+        </p>
+      </div>
 
-              <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Email
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  required
-                  className="mt-1 block w-full rounded-md border border-gray-300 p-2 focus:border-indigo-500 focus:ring-indigo-500"
-                />
-              </div>
-
-              <div>
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Message
-                </label>
-                <textarea
-                  name="message"
-                  id="message"
-                  rows="4"
-                  required
-                  className="mt-1 block w-full rounded-md border border-gray-300 p-2 focus:border-indigo-500 focus:ring-indigo-500"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 transition duration-200"
-              >
-                Send Message
-              </button>
-            </form>
-          </div>
-          <div> Social media</div>
-        </div>
+      {/* Social Media Icons */}
+      <div className="flex items-center justify-center gap-10 mt-8">
+        <a
+          href="https://github.com/Mohit9891"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-4xl  transition-transform duration-300 hover:text-blue-900 hover:scale-110"
+        >
+          <FaGithub />
+        </a>
+        <a
+          href="https://linkedin.com/in/mohit-prajapati-484a40275"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-4xl  transition-transform duration-300 hover:text-blue-900 hover:scale-110"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://twitter.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-4xl  transition-transform duration-300 hover:text-blue-900 hover:scale-110"
+        >
+          <FaTwitter />
+        </a>
+        <a
+          href="https://instagram.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-4xl  transition-transform duration-300 hover:text-blue-900 hover:scale-110"
+        >
+          <FaInstagram />
+        </a>
       </div>
     </div>
   );
