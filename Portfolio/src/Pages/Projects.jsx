@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div className="container mt-10">
       <div>
-        <h2 className="text-5xl text-center font-bold">My Projects</h2>
+        <h2 className="text-8xl text-center font-bold">My Projects</h2>
       </div>
 
       <div className="grid grid-cols-3 gap-2.5x ml-[4.5rem] mt-30 items-center">

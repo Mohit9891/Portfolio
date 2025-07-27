@@ -7,13 +7,14 @@ import Resume from './Pages/Resume'
 import Contact from './Pages/Contact'
 import TechStack from './Pages/TechStack'
 import Footer from './Footer'
+import BackgroundVideo from './Pages/Background'
 
 const App = () => {
   return (
-    <div  
-     
-className="			 text-white min-h-screen">
-      <Navbar/>
+  <div className='relative'>
+    <BackgroundVideo/>
+    <div className='relative z-10'>
+       <Navbar/>
       <Home/>
       <About/>
       <Projects/>
@@ -21,8 +22,9 @@ className="			 text-white min-h-screen">
       <Resume/>
       <Contact/>
       <Footer/>
-      
     </div>
+  </div>
+  
   )
 }
 
