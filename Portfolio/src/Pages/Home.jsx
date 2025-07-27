@@ -13,7 +13,7 @@ const Home = () => {
       </div>
 
       <div className="w-6/10 ml-30  pl-3">
-        <img className="rounded-full object-cover" src="/logo.jpg" alt="" />
+        <img className="rounded-full object-cover" src="/Mohit.png" alt="" />
       </div>
     </div>
     </div>
