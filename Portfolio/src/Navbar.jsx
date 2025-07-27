@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="px-6 mt-10 sm:px-6 md:px-8 lg:px-16 xl:px-32 flex justify-between items-center sticky">
+    <div className="px-6 mt-10 sm:px-6 md:px-8 lg:px-16 xl:px-32 flex justify-between items-center sticky text-white">
       <div>
         <a
           href="/home"

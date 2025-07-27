@@ -6,13 +6,13 @@ const Footer = () => {
     <div className="w-full h-80 mt-10  py-12">
       {/* Catchy Line */}
       <div>
-        <p className="text-7xl font-bold text-center  p-6 transition-colors duration-300 ">
+        <p className="text-7xl text-white font-bold text-center  p-6 transition-colors duration-300 ">
           From Console to Cloud – I Build It All ☁️
         </p>
       </div>
 
       {/* Social Media Icons */}
-      <div className="flex items-center justify-center gap-10 mt-8">
+      <div className="flex items-center justify-center text-white gap-10 mt-8">
         <a
           href="https://github.com/Mohit9891"
           target="_blank"

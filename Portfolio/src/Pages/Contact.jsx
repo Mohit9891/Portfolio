@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className=" container mt-32  w-full h-full">
-      <div className="text-center text-9xl flex flex-wrap font-semibold">
+      <div className="text-center text-9xl flex flex-wrap font-semibold text-white">
         {" "}
         Let's Build Something Cool
       </div>
@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="grid grid-cols-2 mt-20">
          
           <div className="p-8 ">
-             <h2 className="text-5xl text-center font-bold p-4 mb-3">Contact</h2>
+             <h2 className="text-5xl text-center text-white font-bold p-4 mb-3">Contact</h2>
             {" "}
             <form action="" method="POST" className="space-y-6">
               <div className="">
