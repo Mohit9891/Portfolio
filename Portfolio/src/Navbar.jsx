@@ -31,7 +31,7 @@ const Navbar = () => {
           Contact
         </a>
         <a
-          href=""
+          href="https://drive.google.com/file/d/1Q9BPq5g4Hp_KVBmXn3wrrwtSfahtZNqd/view"
           className="hover:text-indigo-400 transition-colors duration-200"
         >
           Resume

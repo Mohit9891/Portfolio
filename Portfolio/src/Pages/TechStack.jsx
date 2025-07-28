@@ -1,26 +1,50 @@
-import React from 'react'
+import React from "react";
 
 const TechStack = () => {
   return (
-    <div className='container mt-30'>
-        <div className='text-8xl text-center font-bold text-white'>
-            <h2>Tech Stack</h2>
-        </div>
+    <div className="container mt-30">
+      <div className="text-8xl text-center font-bold text-white">
+        <h2>Tech Stack</h2>
+      </div>
 
-        <div className='grid grid-cols-6 mt-30 ml-20'>
-                <div className="p-4 h-40 object-contain w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out "><img src="download (1).png" alt="" /></div>
-                <div className="p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">2</div>
-                <div className="p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">3</div>
-                <div className="p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">4</div>
-                <div className="p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">5</div>
-                <div className="p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">6</div>
-                <div className=" mt-20 p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">7</div>
-                <div className=" mt-20 p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">8</div>
-                <div className=" mt-20 p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">9</div>
-                <div className=" mt-20 p-4 h-40 w-3/4 rounded-full bg-white-900 bg-opacity-10 backdrop-blur-md border border-gray-200 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"></div>
+      <div className="grid grid-cols-6 mt-30 ml-20">
+        <div className=" h-40 flex items-center justify-center w-[180px]   hover:scale-105 transition-transform duration-300 ease-in-out ">
+          <img
+            className="w-full max-h-full object-contain rounded-xl"
+            src="Html.png"
+            alt=""
+          />
         </div>
+        <div className=" h-40 flex items-center justify-center w-[180px]   hover:scale-105 transition-transform duration-300 ease-in-out ">
+          <img src="css.png" alt="" />
+        </div>
+        <div className=" h-40 flex items-center justify-center w-[180px]   hover:scale-105 transition-transform duration-300 ease-in-out">
+          <img src="js.png" alt="" />
+        </div>
+        <div className=" h-40 flex items-center justify-center w-[180px]   hover:scale-105 transition-transform duration-300 ease-in-out">
+          <img src="java.png" alt="" />
+        </div>
+        <div className=" h-40 flex items-center justify-center w-[180px]   hover:scale-105 transition-transform duration-300 ease-in-out">
+          <img src="expresspng.png" alt="" />
+        </div>
+        <div className=" h-40 flex items-center justify-center w-[180px]   hover:scale-105 transition-transform duration-300 ease-in-out">
+          <img src="mongo.png" alt="" />
+        </div>
+        <div className=" mt-20  h-40flex items-center justify-center w-[180px]   hover:scale-105 transition-transform duration-300 ease-in-out">
+          <img src="react.png" alt="" />
+        </div>
+        <div className=" mt-20  h-40 flex items-center justify-center w-[180px]   hover:scale-105 transition-transform duration-300 ease-in-out">
+          <img src="boot.png" alt="" />
+        </div>
+        <div className=" mt-20  h-40 flex items-center justify-center w-[180px]   hover:scale-105 transition-transform duration-300 ease-in-out">
+          <img src="nodejs.png" alt="" />
+        </div>
+        <div className=" mt-20  flex items-center justify-center w-[180px]   hover:scale-105 transition-transform duration-300 ease-in-out h-40">
+          <img src="sql.png" alt="" />
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default TechStack
+export default TechStack;

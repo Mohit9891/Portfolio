@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Projects from './Pages/Projects'
-import Resume from './Pages/Resume'
+
 import Contact from './Pages/Contact'
 import TechStack from './Pages/TechStack'
 import Footer from './Footer'
@@ -19,7 +19,7 @@ const App = () => {
       <About/>
       <Projects/>
       <TechStack/>
-      <Resume/>
+     
       <Contact/>
       <Footer/>
     </div>
